@@ -1,0 +1,66 @@
+.banner {
+  background: url("https://cdn.pixabay.com/photo/2018/05/25/17/52/home-3429674_960_720.jpg")
+    center center/cover no-repeat;
+  height: 50vh;
+  position: relative;
+}
+
+.banner__info {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  height: calc(50vh - 36px);
+  padding: 0 40px;
+}
+
+.banner__info > h1 {
+  margin-bottom: 10px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background: #fff !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info > Button {
+  background: #ff7779;
+  color: #fff;
+  width: 200px;
+  margin-top: 20px;
+  text-transform: inherit;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner__info > Button:hover {
+  background: #d86e70;
+}
+
+/* Media query  */
+
+@media (min-width: 768px) {
+  .banner__info {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner__info {
+    width: 30vw;
+  }
+}
+@media (min-width: 1500px) {
+  .banner__info {
+    width: 20vw;
+  }
+}

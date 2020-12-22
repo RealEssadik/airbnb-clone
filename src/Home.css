@@ -1,0 +1,36 @@
+.home__sectionBlack {
+  background: #000;
+  color: #fff;
+  padding: 30px 10px;
+}
+h2 {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+p {
+  margin-left: 30px;
+}
+
+/* Media query */
+@media (min-width: 768px) {
+  .home__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home__section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cards {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+@media (min-width: 1500px) {
+  .home__section {
+  }
+}

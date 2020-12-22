@@ -1,0 +1,73 @@
+.search {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+}
+
+/* .rdrDefinedRangesWrapper {
+  width: 100% !important; 
+}*/
+.rdrDateRangePickerWrapper {
+  width: 500px !important;
+}
+
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 480px;
+  padding: 10px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 340px;
+}
+
+.search > input {
+  width: 460px;
+  padding: 10px;
+  position: absolute;
+  left: 10px;
+  height: 30px;
+  top: 405px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search > Button {
+  position: absolute;
+  left: 10px;
+  top: 470px;
+  text-transform: inherit !important;
+  background: #ff7779;
+  color: #fff;
+  width: 482px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+.search > Button:hover {
+  background: #d86e70;
+}
+
+/* Media query  */
+
+@media (min-width: 768px) {
+  .search {
+    left: 30%;
+    width: 50vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .search {
+    left: 45%;
+  }
+}
+@media (min-width: 1500px) {
+  .search {
+    left: 50%;
+  }
+}
