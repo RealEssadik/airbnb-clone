@@ -2,13 +2,14 @@ import React from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
+import { Button } from "@material-ui/core";
 
 function Home() {
   return (
     <div className="home">
       <Banner />
       <div className="cards">
-        <h2>Live Anywhere</h2>
+        <h2 className="home__header">Live Anywhere</h2>
         <div className="home__section">
           <Card
             src="https://a0.muscache.com/im/pictures/a0316ecb-e49b-4b3a-b6b6-c2876b820e8c.jpg?im_w=320"
@@ -31,8 +32,10 @@ function Home() {
 
       <div className="home__sectionBlack">
         <div className="cards">
-          <h2>Experience the world</h2>
-          <p>Unique activities with local experts—in person or online.</p>
+          <h2 className="home__header">Experience the world</h2>
+          <p className="home__paragraph">
+            Unique activities with local experts—in person or online.
+          </p>
           <div className="home__section ">
             <Card
               src="https://a0.muscache.com/im/pictures/4d353c80-e73a-4b04-9e15-ec3d8381b106.jpg?im_w=480"
@@ -54,9 +57,13 @@ function Home() {
       </div>
 
       <div className="cards">
-        <div className="card__learnMore"></div>
+        <div className="card__learnMore">
+          <h3>Still after that perfect gift?</h3>
+          <p>Surprise them with an Airbnb gift card.</p>
+          <Button variant="outlined">Learn more</Button>
+        </div>
 
-        <h2>Join millions of hosts on Airbnb</h2>
+        <h2 className="home__header">Join millions of hosts on Airbnb</h2>
         <div className="home__section">
           <Card
             src="https://a0.muscache.com/im/pictures/2a16f833-464c-446c-8d74-33eb8c643975.jpg?im_w=480"

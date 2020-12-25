@@ -23,6 +23,8 @@
 .banner__search {
   display: flex;
   flex-direction: column;
+
+  top: 60px;
 }
 
 .banner__searchButton {

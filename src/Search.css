@@ -2,53 +2,57 @@
   position: absolute;
   top: 36px;
   left: 0;
-  width: 100vw;
-  z-index: 100;
+  width: contain;
+  z-index: 99;
 }
 
 /* .rdrDefinedRangesWrapper {
   width: 100% !important; 
 }*/
 .rdrDateRangePickerWrapper {
-  width: 500px !important;
+  width: 483px !important;
 }
 
-.search > h2 {
+.search__guests {
+  background: #fff !important;
+  position: absolute;
+  left: 0;
+  top: 360px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.search__guests > h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 480px;
-  padding: 10px;
-  background: #fff;
-  position: absolute;
-  left: 0;
-  top: 340px;
-}
-
-.search > input {
   width: 460px;
   padding: 10px;
-  position: absolute;
-  left: 10px;
+  background: #fff;
+}
+
+.search__guests > input {
+  width: 440px;
+  padding: 10px;
   height: 30px;
-  top: 405px;
   border: 1px solid lightgray;
   border-radius: 5px;
   outline: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-.search > Button {
-  position: absolute;
-  left: 10px;
-  top: 470px;
+.search__guests > Button {
+  margin-left: 10px;
   text-transform: inherit !important;
   background: #ff7779;
   color: #fff;
-  width: 482px;
+  width: 462px;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
 }
-.search > Button:hover {
+.search__guests > Button:hover {
   background: #d86e70;
 }
 

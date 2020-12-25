@@ -1,0 +1,20 @@
+.footer {
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.footer__paragraph {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}

@@ -23,12 +23,13 @@ function Search() {
   return (
     <div className="search">
       <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
-
-      <h2>
-        Numoer of guests <PeopleIcon />
-      </h2>
-      <input main={0} defaultValue={2} type="number" />
-      <Button>Search</Button>
+      <div className="search__guests">
+        <h2>
+          Number of guests <PeopleIcon />
+        </h2>
+        <input main={0} defaultValue={2} type="number" />
+        <Button>Search</Button>
+      </div>
     </div>
   );
 }

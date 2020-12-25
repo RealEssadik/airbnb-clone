@@ -8,7 +8,7 @@ function Card({ src, title, description, price }) {
       <div className="card__info">
         <h3>{title}</h3>
         <h5>{description}</h5>
-        <h4>{price}</h4>
+        <h4>${price}/night</h4>
       </div>
     </div>
   );
